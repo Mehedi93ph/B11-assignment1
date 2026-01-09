@@ -3,19 +3,25 @@
     padding: 0;
 }
 
-header{
-    background-color: rgba(245, 245, 245, 1);
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    background-color: rgba(247, 211, 211, 0.596);
 }
 
 .container {
-    max-width: 1350px;
+    max-width: 1140px;
     margin: auto;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: azure;
+    align-items: center;
+    padding: 10px 0;
 }
 
 nav .link-parent {
@@ -26,4 +32,46 @@ nav .link-parent {
 
 nav .link-parent a {
     text-decoration: none;
+}
+
+.my-btn {
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.hero-parent {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 80px 100px;
+    margin: 20px auto;
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    align-items: center;
+}
+
+.hero-parent .hero-left h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.hero-parent .hero-left p {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    color: rgba(14, 14, 14, 1);
+}
+
+.hero-parent .hero-left .my-btn2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    padding: 17px 34px;
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
 }
